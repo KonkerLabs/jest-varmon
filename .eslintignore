@@ -1,0 +1,6 @@
+/index.d.ts
+/index.js
+/JestEnvironment.d.ts
+/JestEnvironment.js
+/reporter/json-reporter.js
+/reporter/json-reporter.d.ts

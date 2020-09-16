@@ -1,0 +1,1476 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 9,
+  "numPassedTestSuites": 5,
+  "numPassedTests": 57,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 6,
+  "numTotalTests": 66,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1584453409026,
+  "success": false,
+  "testResults": [
+    {
+      "failureMessages": ["Proxy Error, balh blah blah  Error: socket hang up"],
+      "leaks": false,
+      "numFailingTests": 9,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453436442,
+        "start": 1584453409226
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/4_flux.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 4"
+          ],
+          "duration": 10714,
+          "failureMessages": [],
+          "fullName": "Fluxo 4 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Cartão"
+          ],
+          "duration": 2058,
+          "failureMessages": [],
+          "fullName": "Fluxo 4 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Cartão"
+          ],
+          "duration": 10463,
+          "failureMessages": [
+            "Error: //XCUIElementTypeButton[@name=\"físico\"] not found\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Element.elementErrorHandlerCallbackFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/webdriverio/build/middlewares.js:21:24)\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Element.elementErrorHandlerCallbackFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/webdriverio/build/middlewares.js:21:24)\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Object.<anonymous>.exports.getElement (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/jest-varmon/dist/utils/utils.js:29:5)\n    at Object.<anonymous>.exports.cartaoFisico (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/cartao.ts:26:5)"
+          ],
+          "fullName": "Fluxo 4 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Cartão Físico",
+          "source": "Fluxo 4 Cartão Cartão Físico.xml",
+          "image": "Fluxo 4 Cartão Cartão Físico.png"
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Extrato"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.getExtrato (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/extrato.ts:13:3)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Extrato"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.mesAnterior (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/extrato.ts:25:3)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Credito"
+          ],
+          "duration": 0,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.abaCredito (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/credito.ts:15:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Credito"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.verFatura (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/credito.ts:22:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Meu Neon"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.meuNeon (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/meuNeon.ts:14:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Investimentos"
+          ],
+          "duration": 0,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.abaInvestimentos (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/investimentos.ts:15:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Investimentos"
+          ],
+          "duration": 0,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.abrirInvestimentos (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/investimentos.ts:22:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Indicações"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.indicacoes (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/indicacoes.ts:15:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        }
+      ]
+    } ,   {
+      "failureMessage": "  ● Fluxo 4 › Cartão › Cartão Físico\n\n    //XCUIElementTypeButton[@name=\"físico\"] not found\n\n      at ../../../node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n\n  ● Fluxo 4 › Extrato › Alterar view de saldo\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Extrato › Abrir Extrato\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Credito › Aba Crédito\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Credito › Ver Fatura\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Meu Neon › Aba Menu Neon\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Investimentos › Aba Investimentos\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Investimentos › Abrir Investimentos\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n\n  ● Fluxo 4 › Indicações › Aba Indicações\n\n    SKIPPED\n\n      25 |   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore\n      26 |   // @ts-ignore\n    > 27 |   if (previousFailureEvent) throw new Error(\"SKIPPED\");\n         |                                   ^\n      28 | }\n      29 | \n      30 | export async function scroll(initialY = 500, finalY = 50): Promise<void> {\n\n      at Object.skipIfFails (integration/commons/utils.ts:27:35)\n",
+      "leaks": false,
+      "numFailingTests": 9,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453436442,
+        "start": 1584453409226
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/4_flux.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 4"
+          ],
+          "duration": 10714,
+          "failureMessages": [],
+          "fullName": "Fluxo 4 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Cartão"
+          ],
+          "duration": 2058,
+          "failureMessages": [],
+          "fullName": "Fluxo 4 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Cartão"
+          ],
+          "duration": 10463,
+          "failureMessages": [
+            "Error: //XCUIElementTypeButton[@name=\"físico\"] not found\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Element.elementErrorHandlerCallbackFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/webdriverio/build/middlewares.js:21:24)\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Element.elementErrorHandlerCallbackFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/webdriverio/build/middlewares.js:21:24)\n    at Element.wrapCommandFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/@wdio/utils/build/shim.js:74:23)\n    at Object.<anonymous>.exports.getElement (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/jest-varmon/dist/utils/utils.js:29:5)\n    at Object.<anonymous>.exports.cartaoFisico (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/cartao.ts:26:5)"
+          ],
+          "fullName": "Fluxo 4 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Cartão Físico",
+          "source": "Fluxo 4 Cartão Cartão Físico.xml",
+          "image": "Fluxo 4 Cartão Cartão Físico.png"
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Extrato"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.getExtrato (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/extrato.ts:13:3)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Extrato"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.mesAnterior (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/extrato.ts:25:3)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Credito"
+          ],
+          "duration": 0,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.abaCredito (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/credito.ts:15:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Credito"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.verFatura (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/credito.ts:22:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Meu Neon"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.meuNeon (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/meuNeon.ts:14:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Investimentos"
+          ],
+          "duration": 0,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.abaInvestimentos (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/investimentos.ts:15:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Investimentos"
+          ],
+          "duration": 0,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.abrirInvestimentos (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/investimentos.ts:22:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 4",
+            "Indicações"
+          ],
+          "duration": 1,
+          "failureMessages": [
+            "Error: SKIPPED\n    at Object.skipIfFails (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/commons/utils.ts:27:35)\n    at Object.<anonymous>.exports.indicacoes (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/pages/indicacoes.ts:15:5)\n    at Promise.then.completed (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:249:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/utils.js:213:10)\n    at _callCircusTest (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:412:39)\n    at /Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:321:13\n    at Generator.next (<anonymous>)\n    at asyncGeneratorStep (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:20:24)\n    at _next (/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/node_modules/jest-circus/build/run.js:40:9)"
+          ],
+          "fullName": "Fluxo 4 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "failureMessage": "  ● Visualizar Extrato › Login\n\n    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200\n\n      at getErrorFromResponseBody (../../../node_modules/webdriver/build/utils.js:124:10)\n\n  ● Visualizar Extrato › Login\n\n    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200\n\n      at getErrorFromResponseBody (../../../node_modules/webdriver/build/utils.js:124:10)\n\n  ● Visualizar Extrato › Login\n\n    waitUntil condition failed with the following reason: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200\n\n      at ../../../node_modules/webdriverio/build/commands/browser/waitUntil.js:36:11\n\n  ● Visualizar Extrato › Fatura\n\n    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200\n\n      at getErrorFromResponseBody (../../../node_modules/webdriver/build/utils.js:124:10)\n\n  ● Visualizar Extrato › Fatura\n\n    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200\n\n      at getErrorFromResponseBody (../../../node_modules/webdriver/build/utils.js:124:10)\n\n  ● Visualizar Extrato › Fatura\n\n    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200\n\n      at getErrorFromResponseBody (../../../node_modules/webdriver/build/utils.js:124:10)\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453489467,
+        "start": 1584453442518
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/6_fluxo.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 6"
+          ],
+          "duration": 11041,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Credito"
+          ],
+          "duration": 1890,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Credito"
+          ],
+          "duration": 2515,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Cartão"
+          ],
+          "duration": 2183,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Cartão"
+          ],
+          "duration": 7047,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cartão Físico",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Extrato"
+          ],
+          "duration": 3338,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Extrato"
+          ],
+          "duration": 2616,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Indicações"
+          ],
+          "duration": 5256,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Meu Neon"
+          ],
+          "duration": 4284,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Investimentos"
+          ],
+          "duration": 2214,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 6",
+            "Investimentos"
+          ],
+          "duration": 2265,
+          "failureMessages": [],
+          "fullName": "Fluxo 6 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "failureMessage": null,
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453542482,
+        "start": 1584453495510
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/2_fluxo.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 2"
+          ],
+          "duration": 11115,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Meu Neon"
+          ],
+          "duration": 3851,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Indicações"
+          ],
+          "duration": 5394,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Cartão"
+          ],
+          "duration": 2178,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Cartão"
+          ],
+          "duration": 7329,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cartão Físico",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Investimentos"
+          ],
+          "duration": 2237,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Investimentos"
+          ],
+          "duration": 2282,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Credito"
+          ],
+          "duration": 1983,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Credito"
+          ],
+          "duration": 2504,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Extrato"
+          ],
+          "duration": 3289,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 2",
+            "Extrato"
+          ],
+          "duration": 2634,
+          "failureMessages": [],
+          "fullName": "Fluxo 2 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "failureMessage": null,
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453594892,
+        "start": 1584453548530
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/3_fluxo.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 3"
+          ],
+          "duration": 11038,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Indicações"
+          ],
+          "duration": 4744,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Extrato"
+          ],
+          "duration": 3265,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Extrato"
+          ],
+          "duration": 2406,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Investimentos"
+          ],
+          "duration": 2167,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Investimentos"
+          ],
+          "duration": 2269,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Credito"
+          ],
+          "duration": 2252,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Credito"
+          ],
+          "duration": 2568,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Meu Neon"
+          ],
+          "duration": 4170,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Cartão"
+          ],
+          "duration": 2161,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 3",
+            "Cartão"
+          ],
+          "duration": 7044,
+          "failureMessages": [],
+          "fullName": "Fluxo 3 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cartão Físico",
+          "source": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "failureMessage": null,
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453647236,
+        "start": 1584453600947
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/1_fluxo.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 1"
+          ],
+          "duration": 11258,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Extrato"
+          ],
+          "duration": 2697,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Extrato"
+          ],
+          "duration": 2455,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Credito"
+          ],
+          "duration": 2112,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Credito"
+          ],
+          "duration": 2551,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Investimentos"
+          ],
+          "duration": 2090,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Investimentos"
+          ],
+          "duration": 2321,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Cartão"
+          ],
+          "duration": 2160,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Cartão"
+          ],
+          "duration": 7148,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cartão Físico",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Indicações"
+          ],
+          "duration": 4897,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 1",
+            "Meu Neon"
+          ],
+          "duration": 4314,
+          "failureMessages": [],
+          "fullName": "Fluxo 1 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        }
+      ]
+    },
+    {
+      "failureMessage": null,
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 11,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1584453701382,
+        "start": 1584453653366
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/lucianoneucamp/git/inmetrics/varmon/dev-jest-varmon/packages/amil-ios-automation/test/integration/5_fluxo.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Fluxo 5"
+          ],
+          "duration": 11093,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Login",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Login",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Investimentos"
+          ],
+          "duration": 1763,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Investimentos Aba Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Investimentos"
+          ],
+          "duration": 2325,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Investimentos Abrir Investimentos",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Investimentos",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Extrato"
+          ],
+          "duration": 2929,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Extrato Alterar view de saldo",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Alterar view de saldo",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Extrato"
+          ],
+          "duration": 2483,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Extrato Abrir Extrato",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Abrir Extrato",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Meu Neon"
+          ],
+          "duration": 4375,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Meu Neon Aba Menu Neon",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Menu Neon",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Cartão"
+          ],
+          "duration": 2316,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Cartão Aba Cartões",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Cartões",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Cartão"
+          ],
+          "duration": 8467,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Cartão Cartão Físico",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Cartão Físico",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Credito"
+          ],
+          "duration": 2269,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Credito Aba Crédito",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Crédito",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Credito"
+          ],
+          "duration": 2543,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Credito Ver Fatura",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Ver Fatura",
+          "source": null,
+          "image": null
+        },
+        {
+          "ancestorTitles": [
+            "Fluxo 5",
+            "Indicações"
+          ],
+          "duration": 5239,
+          "failureMessages": [],
+          "fullName": "Fluxo 5 Indicações Aba Indicações",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Aba Indicações",
+          "source": null,
+          "image": null
+        }
+      ]
+    }
+  ],
+  "wasInterrupted": false
+}

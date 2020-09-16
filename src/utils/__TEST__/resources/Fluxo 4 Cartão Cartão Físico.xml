@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="Neon" label="Neon" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="75">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="75"/>
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="75">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="75">
+                    <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Reative a sua Neon+ realizando 10 compras nos seus cartões." name="Reative a sua Neon+ realizando 10 compras nos seus cartões." label="Reative a sua Neon+ realizando 10 compras nos seus cartões." enabled="true" visible="true" x="20" y="30" width="311" height="35"/>
+                  </XCUIElementTypeOther>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeScrollView type="XCUIElementTypeScrollView" enabled="true" visible="true" x="0" y="75" width="375" height="592">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="75" width="375" height="1100">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="75" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="75" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="meu neon" name="meu neon" label="meu neon" enabled="true" visible="true" x="20" y="117" width="93" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="284" y="89" width="82" height="82">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="284" y="89" width="82" height="82">
+                        <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="284" y="89" width="82" height="82"/>
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="298" y="103" width="54" height="54">
+                          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="AN" name="AN" label="AN" enabled="true" visible="true" x="298" y="103" width="54" height="54"/>
+                        </XCUIElementTypeOther>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="123" y="121" width="62" height="22">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="123" y="121" width="62" height="22">
+                        <XCUIElementTypeImage type="XCUIElementTypeImage" name="neon_plus_card" enabled="true" visible="false" x="133" y="126" width="11" height="12"/>
+                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="0/10" name="0/10" label="0/10" enabled="true" visible="true" x="150" y="124" width="25" height="16"/>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="185" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="185" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="saldo" name="saldo" label="saldo" enabled="true" visible="true" x="20" y="227" width="51" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="295" y="210" width="60" height="60">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="307" y="222" width="36" height="36"/>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="295" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="295" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="crédito" name="crédito" label="crédito" enabled="true" visible="true" x="20" y="337" width="66" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="295" y="320" width="60" height="60">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="307" y="332" width="36" height="36"/>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="405" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="405" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="investimentos" name="investimentos" label="investimentos" enabled="true" visible="true" x="20" y="447" width="130" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="295" y="430" width="60" height="60">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="307" y="442" width="36" height="36"/>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="515" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="515" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="indicações" name="indicações" label="indicações" enabled="true" visible="true" x="20" y="557" width="101" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="295" y="540" width="60" height="60"/>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="625" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="625" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="cartões" name="cartões" label="cartões" enabled="true" visible="false" x="20" y="667" width="70" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="295" y="650" width="60" height="60"/>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="735" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="735" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="transferências" name="transferências" label="transferências" enabled="true" visible="false" x="20" y="777" width="134" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="295" y="760" width="60" height="60"/>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="845" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="845" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="pagamentos" name="pagamentos" label="pagamentos" enabled="true" visible="false" x="20" y="887" width="118" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="295" y="870" width="60" height="60"/>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="955" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="955" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="recargas" name="recargas" label="recargas" enabled="true" visible="false" x="20" y="997" width="82" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="295" y="980" width="60" height="60"/>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1065" width="375" height="110">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1065" width="375" height="110">
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="depósitos" name="depósitos" label="depósitos" enabled="true" visible="false" x="20" y="1107" width="91" height="26"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="295" y="1090" width="60" height="60"/>
+                  </XCUIElementTypeOther>
+                </XCUIElementTypeOther>
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1175" width="375" height="600">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1175" width="375" height="600">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1175" width="375" height="600">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1175" width="375" height="50"/>
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Tenha Neon+" name="Tenha Neon+" label="Tenha Neon+" enabled="true" visible="false" x="52" y="1230" width="271" height="40"/>
+                      <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="A conta Neon não tem taxas em serviços digitais e você ainda ganha +3 saques grátis.​" name="A conta Neon não tem taxas em serviços digitais e você ainda ganha +3 saques grátis.​" label="A conta Neon não tem taxas em serviços digitais e você ainda ganha +3 saques grátis.​" enabled="true" visible="false" x="55" y="1280" width="265" height="52"/>
+                      <XCUIElementTypeButton type="XCUIElementTypeButton" name="LIGAR NEON+" label="LIGAR NEON+" enabled="true" visible="false" x="50" y="1387" width="275" height="40">
+                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="LIGAR NEON+" name="LIGAR NEON+" label="LIGAR NEON+" enabled="true" visible="false" x="140" y="1398" width="95" height="18"/>
+                      </XCUIElementTypeButton>
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="1448" width="375" height="327"/>
+                      <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" x="87" y="1511" width="201" height="201"/>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeScrollView>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667"/>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+</XCUIElementTypeApplication></AppiumAUT>

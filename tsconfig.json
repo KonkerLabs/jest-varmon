@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "noResolve": false,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "target": "es2017",
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["jest"]
+  },
+  "exclude": ["node_modules", "dist"]
+}

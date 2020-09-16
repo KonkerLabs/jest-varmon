@@ -1,0 +1,87 @@
+{
+  "name": "jest-varmon",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.10"
+  },
+  "bin": {
+    "varmon": "dist/varmon-cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "typecheck": "tsc",
+    "test": "jest --projects src --detectOpenHandles",
+    "build": "tsc -p tsconfig.build.json",
+    "watch": "tsc --watch ",
+    "appium": "appium",
+    "appium:doctor": "appium-doctor"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "npm run lint"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "npm run lint && npm run typecheck && npm run build && npm test"
+    }
+  },
+  "dependencies": {
+    "@types/got": "^9.6.9",
+    "axios": "^0.19.0",
+    "fs-extra": "^9.0.0",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "jest": "^25.2.3",
+    "jest-circus": "^25.2.3",
+    "jest-cli": "^25.2.3",
+    "jest-environment-node": "^25.2.3",
+    "lodash": "^4.17.15",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^25.2.1",
+    "webdriverio": "^5.22.4"
+  },
+  "peerDependencies": {
+    "jest": "^25.2.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/axios": "^0.14.0",
+    "@types/fs-extra": "^8.0.1",
+    "@types/imagemin": "^7.0.0",
+    "@types/imagemin-jpegtran": "^5.0.0",
+    "@types/jest": "^25.1.4",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.31",
+    "@types/rimraf": "^3.0.0",
+    "@types/shelljs": "^0.8.7",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "commitlint": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.9",
+    "prettier": "^2.0.2",
+    "typescript": "^3.7.4"
+  },
+  "keywords": [
+    "appium",
+    "jest-environment",
+    "jest",
+    "selenium",
+    "webdriver",
+    "webdriverio"
+  ]
+}
