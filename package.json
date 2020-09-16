@@ -1,6 +1,6 @@
 {
-  "name": "@konkerlabs/jest-varmon",
-  "version": "1.0.2",
+  "name": "varmon-jest",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "node": ">= 8.10"
