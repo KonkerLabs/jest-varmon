@@ -7,8 +7,10 @@ import Axios from "axios";
 import rimraf from "rimraf";
 import path from "path";
 import {run} from "jest-cli";
+import tmp from "tmp";
 
-export const DEFAULT_RESOURCES_DIR = "test-report";
+const tmpobj = tmp.dirSync();
+export const DEFAULT_RESOURCES_DIR = tmpobj.name;
 
 function cleanString(inputb: string) {
   let output = "";
